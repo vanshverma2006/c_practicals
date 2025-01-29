@@ -1,13 +1,19 @@
-#include<stdio.h>
-int main(){
-    int n;
-    printf("enter a num : ");
-    scanf("%d",&n);
-    for (int i=n;i>=1;i--){
-        for(int j=i;j>=1;j--){
+#include <stdio.h>
+
+int main() {
+    int i, j, rows = 4;  
+
+    for (i = 1; i <= rows; i++) {
+        
+        for (j = 1; j <= rows - i; j++) {
             printf(" ");
         }
-        printf("*\n");
+        
+        for (j = 1; j <= i; j++) {
+            printf("*");
+        }
+        printf("\n");  
     }
+
     return 0;
 }
