@@ -1,9 +1,16 @@
 #include <stdio.h>
 int main() {
-    int a = 5, b = 10;
+    int a,b;
+    printf("enter num 1 :: ");
+    scanf("%d",&a);
+    printf("enter num 2 :: ");
+    scanf("%d",&b);
+    printf("before swapping");
+    printf("\nnum1 :: %d, num 2 :: %d",a,b);
     a = a + b;
     b = a - b;
     a = a - b;
-    printf("After swap: a = %d, b = %d\n", a, b);
+    printf("\nnum1 :: %d, num 2 :: %d",a,b);
+    
     return 0;
 }

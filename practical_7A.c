@@ -1,16 +1,16 @@
 #include<stdio.h>
-void swap(int* a,int* b){
-    int c;
-    c=*a;
-    *a=*b;
-    *b=c;
-    printf("%d%d",*a,*b);
-    
-}
 int main(){
     int a,b;
+    printf("enter num 1 :: ");
     scanf("%d",&a);
+    printf("enter num 2 :: ");
     scanf("%d",&b);
-    swap(&a,&b);
+    printf("before swapping");
+    printf("\nnum1 :: %d, num 2 :: %d",a,b);
+    int temp ;
+    temp=a;
+    a=b;
+    b=temp;
+    printf("\nnum1 :: %d, num 2 :: %d",a,b);
     return 0;
 }
