@@ -10,6 +10,6 @@ int main(){
     printf("enter a num :: ");
     scanf("%d",&n);
     printf("\n sum of %d natural num is : %d",n,sum(n));
-
+    
     return 0;
 }

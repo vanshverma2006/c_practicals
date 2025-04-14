@@ -1,7 +1,7 @@
 #include<stdio.h>
 void inputArray(int arr[],int n){
     for(int i=0;i<n;i++){
-        printf("\nenter element %d : ",i+1);
+        printf("enter element %d : ",i+1);
         scanf("%d",&arr[i]);
     }
 }
@@ -19,5 +19,6 @@ int main (){
     int arr[n];
     inputArray(arr,n);
     printf("%d",sum(arr,n));
+    
     return 0;
 }
