@@ -57,5 +57,9 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "editor.formatOnSave": false,
-  "editor.formatOnSaveMode": "modificationsIfAvailable"
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "files.associations": {
+    "*.wmls": "javascriptlite",
+    "stdlib.h": "c"
+  }
 }
